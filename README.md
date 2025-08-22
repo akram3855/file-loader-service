@@ -45,7 +45,10 @@ spring.jpa.properties.hibernate.format_sql=true
 spring.task.scheduling.pool.size=2
 src/main/java/com/example/fileloader
 
- # Project Structure
+
+
+
+## Project Structure
 src
 ├─ main
 │ ├─ java
@@ -85,15 +88,17 @@ spring.jpa.properties.hibernate.format_sql=true
 # Enable scheduling
 spring.task.scheduling.pool.size=2
 
-## Setup Instructions
+## **Setup Instructions**
 
-### 1. Clone the Repository
+### **1. Clone the Repository**
 
-```
+**Clone the repository and navigate into the project folder:**
+
+```bash
 git clone https://github.com/akram3855/file-loader-service.git
 cd File-loader
 
-```
+
 
 2. Set Up PostgreSQL
 
